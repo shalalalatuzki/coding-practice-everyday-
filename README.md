@@ -1,2 +1,2 @@
 # coding-practice-everyday-
-每天在领扣刷一道题
+数据结构与算法学习
