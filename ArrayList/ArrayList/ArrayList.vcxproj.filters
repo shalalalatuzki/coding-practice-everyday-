@@ -35,5 +35,14 @@
     <ClCompile Include="vectorEg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FindCenterIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findDoubleBiger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
