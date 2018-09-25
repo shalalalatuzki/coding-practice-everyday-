@@ -52,7 +52,7 @@ arrayList<T>::arrayList(const arrayList<T>& theList)
 	arrayLength = theList.arrayLength;
 	listSize = theList.listSize;
 	element = new T[arrayLength];
-	copy(theList.element,theList.element+ListSize,element);
+	copy(theList.element,theList.element+listSize,element);
 }
 template<class T>
 void arrayList<T>::checkIndex(int theIndex)const 
@@ -106,7 +106,7 @@ template<class T>
 void arrayList<T>::output(ostream& out)const
 {
 	//ostreambuf_iterator<T> out_it (std::cout);
-	copy(element, element + listSize,ostreambuf_iterator<T>(cout," "));
+	copy(element, element + listSize,ostream_iterator<T>(cout," "));
 }
 template <class T>
 ostream& operator<<(ostream& out,const arrayList<T>& x) 
