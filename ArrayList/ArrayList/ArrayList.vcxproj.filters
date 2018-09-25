@@ -32,5 +32,8 @@
     <ClCompile Include="arrayList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="vectorEg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
