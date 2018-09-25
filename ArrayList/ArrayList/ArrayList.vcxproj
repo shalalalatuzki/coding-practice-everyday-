@@ -125,7 +125,9 @@
     <ClCompile Include="arrayList.cpp" />
     <ClCompile Include="FindCenterIndex.cpp" />
     <ClCompile Include="findDoubleBiger.cpp" />
+    <ClCompile Include="luoxuanMatrix.cpp" />
     <ClCompile Include="vectorEg.cpp" />
+    <ClCompile Include="yanghuiRectangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

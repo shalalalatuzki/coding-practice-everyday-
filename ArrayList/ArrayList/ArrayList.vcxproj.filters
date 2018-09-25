@@ -44,5 +44,11 @@
     <ClCompile Include="addOne.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="luoxuanMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yanghuiRectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
