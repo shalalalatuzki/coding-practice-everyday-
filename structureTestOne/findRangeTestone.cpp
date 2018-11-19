@@ -12,6 +12,7 @@ int main() {
 	}
 	for (int i = 0; i < queries; i++) {
 		cin >> a >> b;
+		if (a > b) return -1;
 		int count = 0;
 		for (int i = 0; i < size; i++) {
 			if (S[i] <= b && S[i] >= a) count++;
