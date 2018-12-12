@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E1A03073-155E-49B4-BEAD-C9E77CAD4088}</ProjectGuid>
-    <RootNamespace>structurePA1</RootNamespace>
+    <ProjectGuid>{E3B9AEB0-ED43-4908-8E91-8F4CFFC73CC6}</ProjectGuid>
+    <RootNamespace>structurePA1insert</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,8 +115,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="findRange.cpp" />
-    <ClCompile Include="firstAnswer.cpp" />
+    <ClCompile Include="myAnswer.cpp" />
+    <ClCompile Include="secondAnswer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
