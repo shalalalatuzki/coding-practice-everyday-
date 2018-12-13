@@ -146,13 +146,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="vector_bubble.h" />
+    <ClInclude Include="vector_bubbleSort.h" />
+    <ClInclude Include="Vector_deduplicate.h" />
+    <ClInclude Include="vector_deduplicate_1.h" />
+    <ClInclude Include="Vector_disordered.h" />
     <ClInclude Include="vector_expand.h" />
     <ClInclude Include="vector.h" />
     <ClInclude Include="vector_assignment.h" />
     <ClInclude Include="vector_bracket.h" />
     <ClInclude Include="vector_constructor_by_copying.h" />
+    <ClInclude Include="Vector_find.h" />
+    <ClInclude Include="vector_heapSort.h" />
     <ClInclude Include="vector_implementation.h" />
+    <ClInclude Include="Vector_insert.h" />
+    <ClInclude Include="vector_merge.h" />
+    <ClInclude Include="vector_mergeSort.h" />
+    <ClInclude Include="vector_partition_B.h" />
+    <ClInclude Include="vector_quickSort.h" />
+    <ClInclude Include="vector_remove.h" />
+    <ClInclude Include="vector_removeInterval.h" />
+    <ClInclude Include="Vector_search.h" />
+    <ClInclude Include="Vector_search_binary_C.h" />
+    <ClInclude Include="Vector_search_fibonaccian_B.h" />
+    <ClInclude Include="vector_selectionSort.h" />
     <ClInclude Include="vector_shrink.h" />
+    <ClInclude Include="Vector_sort.h" />
+    <ClInclude Include="Vector_traverse.h" />
+    <ClInclude Include="Vector_uniquify.h" />
+    <ClInclude Include="vector_unsort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mian.cpp" />

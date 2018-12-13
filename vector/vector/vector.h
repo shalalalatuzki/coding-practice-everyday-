@@ -8,7 +8,7 @@ protected:
 	void copyFrom(T const*A,Rank lo,Rank hi);//常量指针，指针指向的地址不变，所在地址的值可以变
 	void expand();//空间不足时扩展
 	void shrink();//装填因子过小时压缩
-	bool bubble(Rank lo,Rank hi);//扫描交换
+	Rank bubble(Rank lo,Rank hi);//扫描交换
 	void bubbleSort(Rank lo,Rank hi);//起泡排序
 	Rank max(Rank lo,Rank hi);//选取最大元素
 	void selectionSort(Rank lo,Rank hi);//选取排序算法
@@ -46,6 +46,8 @@ public:
 	T remove(Rank r);//删除秩为r的元素
 	int remove(Rank lo, Rank hi);
 	Rank insert(T const& e) { return insert(_size, e); }
+	/*Rank bubble(Rank lo, Rank hi);
+	Rank bubbleSort(Rank lo, Rank hi);*/
 	void sort(Rank lo,Rank hi);
 	void sort() { sort(0, size); }//整体排序
 	void unsort() { unsort(0, _size); }//置乱

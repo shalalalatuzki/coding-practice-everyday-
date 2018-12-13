@@ -36,6 +36,72 @@
     <ClInclude Include="vector_expand.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Vector_insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_remove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_removeInterval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_disordered.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search_binary_C.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search_fibonaccian_B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_traverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_unsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubble.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_selectionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_mergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_quickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_heapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_uniquify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_deduplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mian.cpp">
