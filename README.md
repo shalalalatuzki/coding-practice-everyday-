@@ -7,9 +7,11 @@
 1) Initialize both first and second smallest as INT_MAX
    first = second = INT_MAX
 2) Loop through all the elements.
-   a) If the current element is smaller than first, then update first 
+  
+  a) If the current element is smaller than first, then update first 
        and second. 
-   b) Else if the current element is smaller than second then update 
+   
+  b) Else if the current element is smaller than second then update 
     second
   
   详情查看网址：https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
