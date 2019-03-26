@@ -11,6 +11,8 @@
        and second. 
    b) Else if the current element is smaller than second then update 
     second
+  
   详情查看网址：https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
+  
   题解在ArrayAndLinkedList文件夹下
   
