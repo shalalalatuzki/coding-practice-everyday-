@@ -17,4 +17,4 @@
   详情查看网址：https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
   
   C++版题解在ArrayAndLinkedList文件夹下
-  python版题解在Py_ArrayAndLinkedList文件夹下
+  python版题解在y_ArrayAndLinkedList文件夹下
