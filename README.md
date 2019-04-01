@@ -41,3 +41,5 @@ count++
 
 我的错误解决办法详情见链接https://blog.csdn.net/albertsh/article/details/49952887
 
+我是直接去掉删除操作的，在FindNotReapt文件夹下有两个题解，W_FindNotReapt使用链表记录重复元素，UseHash使用hash表存储每个元素出现的次数，次数出现为1则为不重复元素。
+
