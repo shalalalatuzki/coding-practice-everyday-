@@ -9,6 +9,4 @@ def FindNotRepeated(arr,n):
 
 arr=[-1,2,-1,3,2]
 n=len(arr)
-print(FindNotRepeated(arr,n)
-
-
+print(FindNotRepeated(arr,n))
