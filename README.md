@@ -43,5 +43,5 @@ count++
 
 我是直接去掉删除操作的，在FindNotReapt文件夹下有两个题解，W_FindNotReapt使用链表记录重复元素，UseHash使用hash表存储每个元素出现的次数，次数出现为1则为不重复元素。
 C++题解在FindNotRepeat文件夹下，
-Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意字典的空key,这里使用了defaultdict.dict和collections.defaultdict的区别:
+Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意字典的空key,这里使用了defaultdict。dict和collections.defaultdict的区别:
 假如key为'a'不在字典中，访问dict会出现keyError,而defaultdict则返回其默认的类型。这种情况适用于初始化一个空字典然后字典的值会发生变化之类。
