@@ -33,7 +33,7 @@
 
 count++
 
-第二层遍历结束后，如果count超过零，者该元素重复，删除之
+第二层遍历结束后，如果count超过零，或者该元素重复，删除之
 
 如果count为零或链表大小为1，输出该元素，并退出循环
 
@@ -42,4 +42,4 @@ count++
 我的错误解决办法详情见链接https://blog.csdn.net/albertsh/article/details/49952887
 
 我是直接去掉删除操作的，在FindNotReapt文件夹下有两个题解，W_FindNotReapt使用链表记录重复元素，UseHash使用hash表存储每个元素出现的次数，次数出现为1则为不重复元素。
-
+C++题解在FindNotRepeat文件夹下，
