@@ -45,3 +45,7 @@ count++
 C++题解在FindNotRepeat文件夹下，
 Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意字典的空key,这里使用了defaultdict。dict和collections.defaultdict的区别:
 假如key为'a'不在字典中，访问dict会出现keyError,而defaultdict则返回其默认的类型。这种情况适用于初始化一个空字典然后字典的值会发生变化之类。
+## 合并两个排好序的数列
+我自己这次直接用了复杂度较小的方法，思路：
+创建一个数组存合并序列，再分别遍历排好序的数组，比较两个数列元素的大小，将较小的放入数组中。
+
