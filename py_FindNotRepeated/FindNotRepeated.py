@@ -1,5 +1,6 @@
+from collections import defaultdict
 def FindNotRepeated(arr,n):
-    mp=dict()
+    mp=defaultdict(lambda:0)
     for i in range(n):
         mp[arr[i]]+=1
     for i in range(n):
