@@ -48,5 +48,5 @@ Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意�
 ## 合并两个排好序的数列
 我自己这次直接用了复杂度较小的方法，思路：
 创建一个数组存合并序列，再分别遍历排好序的数组，比较两个数列元素的大小，将较小的放入数组中。（我的代码中使用了vector，为了方便输入不定长数组）
-题解C++题解在MergeTwo
+题解C++题解在MergeTwoArray中，Python题解在py_MergeTwoArray
 
