@@ -51,3 +51,5 @@ Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意�
 ## 使用栈计算后缀表达式
 如果输入元素为数字则放入栈中，如果输入元素为运算符则，数据栈弹出数字，进行计算。  
 C++题解在StackEvaluation文件夹下，Python题解在py_StackEvaluation文件夹下。
+## 使用栈为栈中元素排序
+一个栈用来不断输出数据，一个栈用来存储排序数据。
