@@ -33,7 +33,7 @@ int StackEvaluation(char *oper) {
 	return numbers.top();
 }
 int main() {
-	char temp[]="";
+	char temp[100]="";
 	//char temp[] = "231*+9-";
 	/*stack<int> keep;
 	while (cin>>temp) {
