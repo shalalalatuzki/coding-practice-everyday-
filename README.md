@@ -53,3 +53,4 @@ Python题解在py_findNotRepeat文件夹下，在做Python题解的时候注意�
 C++题解在StackEvaluation文件夹下，Python题解在py_StackEvaluation文件夹下。
 ## 使用栈为栈中元素排序
 一个栈用来不断输出数据，一个栈用来存储排序数据。
+C++题解在SortByStack文件夹下，Python题解在py_SortByStack文件夹下。
