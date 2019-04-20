@@ -57,3 +57,4 @@ C++题解在SortByStack文件夹下，Python题解在py_SortByStack文件夹下�
 ## 检查字符串中括号是否匹配
 创建存储左半括号的栈，如果遇到左半括号就放入栈中，如果遇到右半括号就将栈顶元素弹出，看是否匹配，如果不匹配则结束，括号是不匹配的，如果匹配则继续遍历，遍历结束，如果栈为空，说明括号匹配。
 C++题解在ParenthesisMatching文件夹下，Python题解我打算使用hashtable，key值为右括号，元素值为左括号。Python题解在py_ParenthesisMatching文件夹下。
+## 倒转队列的前K个元素
