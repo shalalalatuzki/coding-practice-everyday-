@@ -62,3 +62,4 @@ C++题解在ParenthesisMatching文件夹下，Python题解我打算使用hashtab
 C++题解在Conversion文件夹下，Python题解在py_Conversion文件夹下。
 ## 移除链表中的重复元素 
 使用hashtable，遍历链表中的元素，如果hashtable中没有则添加，如果hashtable中有则移除。注意啦，注意啦使用C++STL删除链表需要双重护盾啦，erase（）会把迭代器删除，而且删除元素后，迭代器当前指的地址也为空了，要将迭代器指向前一元素啊！好坑啊。。。。
+C++题解在DeleteRepeat文件夹下，Python题解在py_DeleteRepeat文件夹下。
