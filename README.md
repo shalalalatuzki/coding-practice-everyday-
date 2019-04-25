@@ -65,3 +65,6 @@ C++题解在Conversion文件夹下，Python题解在py_Conversion文件夹下。
 C++题解在DeleteRepeat文件夹下，Python题解在py_DeleteRepeat文件夹下。
 ## 图的广度搜索
 C++题解在BFS文件夹下，python题解在py_BFS文件夹下
+## 图的深度优先搜索
+在进行深度遍历时，使用了递归算法。  
+C++题解在DFS中，python题解在py_DFS中。
