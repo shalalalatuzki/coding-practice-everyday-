@@ -13,6 +13,7 @@ private:
 	int V;
 	list<int>* adj;
 	bool hasCycle(int ver,bool * visited,int parent);
+	int length=0;
 };
 Graphic::Graphic(int V):V(V) {
 	adj = new list<int>[V];
@@ -27,6 +28,7 @@ bool Graphic:: hasCycle(int ver,bool *visited,int parent) {
 
 	list<int>::iterator i;
 	for (i = adj[ver].begin(); i != adj[ver].end();i++) {
+
 		if (!visited[*i]) {
 			if (hasCycle(*i,visited,ver)) {
 				return true;
@@ -50,6 +52,10 @@ bool Graphic::isTree1() {
 		}
 	}
 	return true;
+}
+bool Graphic::isTree2() {
+	
+	 
 }
 Graphic::~Graphic() {
 	delete[]adj;
