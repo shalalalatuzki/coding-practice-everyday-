@@ -75,3 +75,8 @@ C++题解在DFS中，python题解在py_DFS中。
 C++题解在CheakTree文件夹下，python题解在py_CheckTree文件夹下。
 ## 计算一个无向图的边数
 遍历邻接矩阵，邻接矩阵的大小除以2即为边数。
+## 使用 Dijkstra 算法查找两个节点之间的最短距离
+用一个数组dist存顶点的距离，一个bool数组更新顶点是否遍历。使用广度搜索遍历一遍，将每个顶点最短的距离更新到dist。
+C++题解在ShortestPath文件夹下，python题解在py_ShortestPath文件夹下。
+
+
