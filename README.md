@@ -80,4 +80,5 @@ C++题解在CheakTree文件夹下，python题解在py_CheckTree文件夹下。
 C++题解在ShortestPath文件夹下，python题解在py_ShortestPath文件夹下。
 ## 计算树的高度
 用递归分别计算左树与右树的高度，取其中最高的一半。
+C++题解在TreeHeight文件夹下，py_TreeHeight文件夹下。
 
