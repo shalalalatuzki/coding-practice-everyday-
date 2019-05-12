@@ -79,5 +79,5 @@ C++题解在CheakTree文件夹下，python题解在py_CheckTree文件夹下。
 用一个数组dist存顶点的距离，一个bool数组更新顶点是否遍历。使用广度搜索遍历一遍，将每个顶点最短的距离更新到dist。
 C++题解在ShortestPath文件夹下，python题解在py_ShortestPath文件夹下。
 ## 计算树的高度
-
+用递归分别计算左树与右树的高度，取其中最高的一半。
 
